@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subscription-based Business</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home">StreamPlus</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#trending"></a>Trending Now</li>
+                <li><a href="#plans"></a>Subscription Plans</li>
+                <li><a href="#account"></a>My Account</li>
+                <li><a href="#personalization"></a>Personalize</li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="overlay">
+        <h1>Welcome to StreamPlus</h1>
+        <p>Enjoy your favorite movies, TV shows, and exclusive content with unlimited streaming.</p>
+        <a href="#plans" class="cta-btn">Explore Subscription Plans</a>
+    </div>
+    </section>
+<section id="trending">
+    <h2>Trending Shows</h2>
+    <div class="filters">
+        <button class="filter-btn" onclick="filterGenre('action')">Action</button>
+        <button class="filter-btn" onclick="filterGenre('drama')">Drama</button>
+        <button class="filter-btn" onclick="filterGenre('comedy')">Comedy</button>
+        <button class="filter-btn" onclick="filterGenre('romance')">Romance</button>
+    </div>
+    <div class="trending-grid">
+        <div class="trending-card">
+            <img src="3.jpg" alt="show title">
+            <h3>Do Patti</h3>
+            <p>rating 9.5/10</p>
+            <a href="#show-details" class="cta-btn">Watch Now</a>
+        </div>
+        <div class="trending-card">
+            <img src="2.jpg" alt="show title">
+            <h3>The Buckingham Murders</h3>
+            <p>rating 8.5/10</p>
+            <a href="#show-details" class="cta-btn">Watch Now</a>
+        </div>
+        <div class="trending-card">
+            <img src="1.jpg" alt="show title">
+            <h3>Bhool Bhulaiyaa</h3>
+            <p>rating 8.5/10</p>
+            <a href="#show-details" class="cta-btn">Watch Now</a>
+        </div>
+        <div class="trending-card">
+            <img src="4.jpg" alt="show title">
+            <h3>It Ends With Us</h3>
+            <p>rating 8.5/10</p>
+            <a href="#show-details" class="cta-btn">Watch Now</a>
+        </div>
+        <div class="trending-card">
+            <img src="5.jpg" alt="show title">
+            <h3>Bhool Bhulaiyaa2</h3>
+            <p>rating 8.5/10</p>
+            <a href="#show-details" class="cta-btn">Watch Now</a>
+        </div>
+    </div>
+</section>
+    <section id="plans">
+        <h2>Choose Your Subscription Plan</h2>
+        <div class="plan-card">
+            <h3>Basic Plan</h3>
+            <p>Stream on 1 device in HD quality.</p>
+            <p>$9.99/month</p>
+            <a href="#account" class="cta-btn">Subscribe Now</a>
+        </div>
+        <div class="plan-card">
+            <h3>Standard Plan</h3>
+            <p>Stream on 2 devices in Full HD quality.</p>
+            <p>$14.99/month</p>
+            <a href="#account" class="cta-btn">Subscribe Now</a>
+        </div>
+        <div class="plan-card">
+            <h3>Premium Plan</h3>
+            <p>Stream on 4 devices in 4K UHD quality.</p>
+            <p>$19.99/month</p>
+            <a href="#account" class="cta-btn">Subscribe Now</a>
+        </div>
+    </section>
+    <section id="account">
+        <h2>Manage Your Account</h2>
+        <form id="account-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Full Name">
+            <label for="email">Email Address:</label>
+            <input type="text" id="name" placeholder="Enter Your Email Address">
+            <label for="subscription">Choose Your Plan:</label>
+            <select id="subscription">
+                <option value="basic">Basic Plan</option>
+                <option value="standard">Standard Plan</option>
+                <option value="premium">Premium Plan</option>
+            </select>
+            <button type="submit" class="cta-btn">Save Changes</button>
+        </form>
+    </section>
+    <section id="personalization">
+        <h2>Personalize Your Experience</h2>
+        <form id="personalization-form">
+            <label for="genre">Preferred Genre:</label>
+            <select id="genre">
+                <option value="action">Action</option>
+                <option value="romantic">Romantic</option>
+                <option value="Comedy">Cpmedy</option>
+                <option value="drama">Drama</option>
+                <option value="documentary">Documentary</option>
+                <option value="horror">Horror</option>
+                <option value="rom-com">Rom-Com</option>
+            </select>
+            <label for="rating">Preferred Rating</label>
+            <select id="rating">
+                <option value="G">G</option>
+                <option value="PG">PG</option>
+                <option value="PG-13">PG-13</option>
+                <option value="R">R</option>
+            </select>
+            <button type="submit" class="cta-btn">Save Preferences</button>
+        </form>
+    </section>
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <p>Follow us on:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ftr">
+        <p>&copy; 2024 StreamPlus. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
